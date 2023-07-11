@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/OpenCircuits/OpenCircuits/site/go/auth"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/interfaces"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/model"
+	"github.com/circuitPro/circuitPro/site/go/auth"
+	"github.com/circuitPro/circuitPro/site/go/core/interfaces"
+	"github.com/circuitPro/circuitPro/site/go/core/model"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,4 +1,4 @@
-module github.com/OpenCircuits/OpenCircuits/site/go
+module github.com/circuitPro/circuitPro/site/go
 
 go 1.13
 

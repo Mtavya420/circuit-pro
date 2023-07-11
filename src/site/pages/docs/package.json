@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "description": "Documentation site for OpenCircuits",
+  "description": "Documentation site for circuitPro",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

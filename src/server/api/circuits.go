@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/interfaces"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/model"
+	"github.com/circuitPro/circuitPro/site/go/core/interfaces"
+	"github.com/circuitPro/circuitPro/site/go/core/model"
 	"github.com/gin-gonic/gin"
 )
 

@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"cloud.google.com/go/datastore"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/interfaces"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/model"
+	"github.com/circuitPro/circuitPro/site/go/core/interfaces"
+	"github.com/circuitPro/circuitPro/site/go/core/model"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 )

@@ -1,6 +1,6 @@
 {
   "name": "landing",
-  "description": "The landing page for OpenCircuits",
+  "description": "The landing page for circuitPro",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

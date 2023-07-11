@@ -3,7 +3,7 @@ package web
 import (
 	"net/http"
 
-	"github.com/OpenCircuits/OpenCircuits/site/go/auth"
+	"github.com/circuitPro/circuitPro/site/go/auth"
 	"github.com/gin-gonic/gin"
 )
 

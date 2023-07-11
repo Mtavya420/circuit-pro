@@ -5,6 +5,6 @@ description: Description needed
 
 ## App
 
-This is the application code for OpenCircuits.
+This is the application code for circuitPro.
 
 ---

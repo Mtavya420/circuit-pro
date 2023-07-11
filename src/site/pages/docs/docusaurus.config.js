@@ -2,26 +2,26 @@ const katex = require("rehype-katex");
 const math = require("remark-math");
 
 module.exports = {
-  title: "OpenCircuits",
+  title: "circuitPro",
   tagline: "The free, online, circuit designer",
-  url: "https://docs.opencircuits.io",
+  url: "https://docs.circuitPro.io",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "OpenCircuits", // Usually your GitHub org/user name.
-  projectName: "OpenCircuits", // Usually your repo name.
+  organizationName: "circuitPro", // Usually your GitHub org/user name.
+  projectName: "circuitPro", // Usually your repo name.
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",
-      type: "text/css"
+      type: "text/css",
     },
   ],
   themeConfig: {
     navbar: {
-      title: "OpenCircuits",
+      title: "circuitPro",
       logo: {
-        alt: "OpenCircuits Logo",
+        alt: "circuitPro Logo",
         src: "img/icon.svg",
       },
       items: [
@@ -29,28 +29,28 @@ module.exports = {
           label: "Docs",
           type: "doc",
           docId: "Introduction",
-          position: "left"
+          position: "left",
         },
         {
           label: "API",
           type: "doc",
           docId: "test",
-          position: "left"
+          position: "left",
         },
         {
           label: "JSDocs",
           type: "doc",
           docId: "ts/app/Overview",
-          position: "left"
+          position: "left",
         },
         {
           label: "Other",
           type: "doc",
           docId: "Other/References/References",
-          position: "left"
+          position: "left",
         },
         {
-          href: "https://github.com/OpenCircuits/OpenCircuits",
+          href: "https://github.com/circuitPro/circuitPro",
           label: "GitHub",
           position: "right",
         },
@@ -78,7 +78,7 @@ module.exports = {
             {
               label: "Discord",
               href: "https://discordapp.com/invite/bCV2tYFer9",
-            }
+            },
           ],
         },
         {
@@ -86,12 +86,12 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/OpenCircuits/OpenCircuits",
+              href: "https://github.com/circuitPro/circuitPro",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} OpenCircuits`,
+      copyright: `Copyright © ${new Date().getFullYear()} circuitPro`,
     },
     prism: {
       theme: require("prism-react-renderer/themes/vsLight"),
@@ -107,18 +107,20 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ versionDocsDirPath, docPath }) => {
-            if (docPath.startsWith("ts/")) { // JSDoc so edit page will be the TS file not doc file
-              return `https://github.com/OpenCircuits/OpenCircuits/edit/master/src/${docPath.slice(3, -3)}.ts`;
+            if (docPath.startsWith("ts/")) {
+              // JSDoc so edit page will be the TS file not doc file
+              return `https://github.com/circuitPro/circuitPro/edit/master/src/${docPath.slice(
+                3,
+                -3
+              )}.ts`;
             }
-            return `https://github.com/OpenCircuits/OpenCircuits/edit/master/docs/${docPath}`;
+            return `https://github.com/circuitPro/circuitPro/edit/master/docs/${docPath}`;
           },
           remarkPlugins: [math],
-          rehypePlugins: [katex]
+          rehypePlugins: [katex],
         },
         theme: {
-          customCss: [
-            require.resolve("./src/css/custom.css")
-          ]
+          customCss: [require.resolve("./src/css/custom.css")],
         },
       },
     ],

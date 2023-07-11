@@ -1,6 +1,6 @@
 package interfaces
 
-import "github.com/OpenCircuits/OpenCircuits/site/go/core/model"
+import "github.com/circuitPro/circuitPro/site/go/core/model"
 
 // NOTE: These functions should never fail, so errors are handled via 'panic', which yield 500-type errors
 

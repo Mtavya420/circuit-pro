@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/OpenCircuits/OpenCircuits/site/go/auth"
+	"github.com/circuitPro/circuitPro/site/go/auth"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/api/oauth2/v2"
 	"google.golang.org/api/option"

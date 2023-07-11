@@ -2,9 +2,9 @@ package sqlite
 
 import (
 	"database/sql"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/interfaces"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/model"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/utils"
+	"github.com/circuitPro/circuitPro/site/go/core/interfaces"
+	"github.com/circuitPro/circuitPro/site/go/core/model"
+	"github.com/circuitPro/circuitPro/site/go/core/utils"
 	"github.com/gchaincl/dotsql"
 	_ "github.com/mattn/go-sqlite3"
 )

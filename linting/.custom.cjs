@@ -1,8 +1,6 @@
 module.exports = {
-    "plugins": [
-        "opencircuits",
-    ],
-    "rules": {
-        "opencircuits/object-curly-spacing": ["error", "always"],
-    },
-}
+  plugins: ["circuitPro"],
+  rules: {
+    "circuitPro/object-curly-spacing": ["error", "always"],
+  },
+};

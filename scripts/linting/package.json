@@ -1,5 +1,5 @@
 {
-    "name": "eslint-plugin-opencircuits",
-    "version": "1.0.0",
-    "main": "index.js"
+  "name": "eslint-plugin-circuitPro",
+  "version": "1.0.0",
+  "main": "index.js"
 }

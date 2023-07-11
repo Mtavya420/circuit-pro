@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"errors"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/model"
+	"github.com/circuitPro/circuitPro/site/go/core/model"
 )
 
 func randToken(encoding *base64.Encoding, l int) string {

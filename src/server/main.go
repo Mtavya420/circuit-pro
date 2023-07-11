@@ -7,16 +7,16 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/OpenCircuits/OpenCircuits/site/go/api"
-	"github.com/OpenCircuits/OpenCircuits/site/go/auth"
-	"github.com/OpenCircuits/OpenCircuits/site/go/auth/google"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/interfaces"
-	"github.com/OpenCircuits/OpenCircuits/site/go/core/utils"
-	"github.com/OpenCircuits/OpenCircuits/site/go/storage"
-	"github.com/OpenCircuits/OpenCircuits/site/go/storage/gcp_datastore"
-	"github.com/OpenCircuits/OpenCircuits/site/go/storage/sqlite"
-	"github.com/OpenCircuits/OpenCircuits/site/go/web"
+	"github.com/circuitPro/circuitPro/site/go/api"
+	"github.com/circuitPro/circuitPro/site/go/auth"
+	"github.com/circuitPro/circuitPro/site/go/auth/google"
+	"github.com/circuitPro/circuitPro/site/go/core"
+	"github.com/circuitPro/circuitPro/site/go/core/interfaces"
+	"github.com/circuitPro/circuitPro/site/go/core/utils"
+	"github.com/circuitPro/circuitPro/site/go/storage"
+	"github.com/circuitPro/circuitPro/site/go/storage/gcp_datastore"
+	"github.com/circuitPro/circuitPro/site/go/storage/sqlite"
+	"github.com/circuitPro/circuitPro/site/go/web"
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 )
@@ -86,7 +86,7 @@ func main() {
 		Path:   "/",
 		MaxAge: 60 * 60 * 24 * 7,
 	})
-	router.Use(sessions.Sessions("opencircuitssession", store))
+	router.Use(sessions.Sessions("circuitProsession", store))
 
 	// Register pages
 	web.RegisterPages(router, authManager)
