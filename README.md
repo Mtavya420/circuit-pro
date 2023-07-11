@@ -1,10 +1,10 @@
-# OpenCircuits
+# Circuit Pro
 
 OpenCircuits is an open-source circuit designer that allows users to create and design simple or complex circuits. It provides a user-friendly interface and a wide range of features to cater to the needs of professors, students, and hobbyists alike.
 
 ## Website
 
-For more information and to access the OpenCircuits platform, please visit [OpenCircuits](#).
+For more information and to access the OpenCircuits platform, please visit [Circuit Pro](#).
 
 ## Usage
 
